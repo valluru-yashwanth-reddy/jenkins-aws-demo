@@ -3,7 +3,7 @@
 pipeline {
     // Here, we tell Jenkins to find any available agent with the 'linux' label
     agent {
-        label 'ubuntu'
+        label 'ubuntu docker node.js'
     }
 
     stages {
